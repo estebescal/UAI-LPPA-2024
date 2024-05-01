@@ -34,3 +34,7 @@ article{
 .tachado{
   text-decoration: line-through;
 }
+footer{
+    background-color: blue;
+    font-style: oblique;
+}
