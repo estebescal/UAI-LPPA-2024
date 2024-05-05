@@ -116,13 +116,6 @@ h2{
     margin-right: 30px;
 }
 
-.fechaEscritura{
-    border-bottom: 1px solid #555;
-    font-size: 14px;
-    border-bottom: 1px solid #666;
-    width: 60%;
-    line-height: 1.2;
-}
 .image{
     padding-top: 10px;
     height: auto;
