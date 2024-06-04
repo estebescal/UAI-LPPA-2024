@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1 id="h1"> Validacion formularios</h1>
+    <form class="row g-3">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Dirección de email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Introduce tu email">
+            <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu email con nadie más.</small>
+         </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationServerUsername" class="form-label">Nombre </label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend3"></span>
+            <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+            <div id="validationServerUsernameFeedback" class="invalid-feedback">
+              El usuario tiene que ser de 4 a 16 digitos y solo puede contener numeros, letras y guion bajo.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationServer03" class="form-label">Contraseña</label>
+          <input type="password" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
+          <div id="validationServer03Feedback" class="invalid-feedback">
+            Proporciona una Contraseña valida
+          </div>
+            
+        <div class="col-md-5">
+          <label for="validationServer05" class="form-label">Repetir Contraseña</label>
+          <input type="password" class="form-control is-invalid" id="validationServer05" aria-describedby="validationServer05Feedback" required>
+          <div id="validationServer05Feedback" class="invalid-feedback">
+            La Contraseñas deben ser iguales
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+            <label class="form-check-label" for="invalidCheck3">
+              Acepta los términos y condiciones
+            </label>
+            <div id="invalidCheck3Feedback" class="invalid-feedback">
+              Debe estar de acuerdo antes de enviar.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btnbtn-primary" type="submit">Enviar formulario</button>
+        </div>
+      </form>
+
+</body>
